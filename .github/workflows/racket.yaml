@@ -11,10 +11,12 @@ on:
 
 jobs:
   hello_gregor:
+    runs-on: ubuntu-latest
     steps:
       - name: hello gregor
         run: echo "i miss you gregor"
   make_snake:
+    runs-on: ubuntu-latest
     steps:
       - name: generate-snake-game-from-github-contribution-grid
         uses: Platane/snk@v3.2.0
